@@ -85,7 +85,7 @@ a {
 }
 
 .tm-brand-box {
-  box-sizing: content-box;
+  box-sizing: border-box;
   width: 100%;
   max-width: 230px;
   min-height: 160px;
