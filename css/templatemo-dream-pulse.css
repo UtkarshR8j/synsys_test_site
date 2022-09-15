@@ -33,11 +33,11 @@ a {
 }
 
 .tm-color-primary {
-  color: #069;
+  color: rgb(253, 253, 253);
 }
 
 .tm-color-gray {
-  color: #333;
+  color: rgb(187, 189, 189);
 }
 
 .tm-bg-black-transparent {
@@ -80,7 +80,8 @@ a {
 }
 
 .tm-brand {
-  font-size: 2.6rem;
+  font-size: 1.8rem;
+  overflow-wrap: break-word;
 }
 
 .tm-brand-box {
@@ -89,19 +90,22 @@ a {
   max-width: 230px;
   min-height: 160px;
   color: white;
-  text-align: center;
+  text-align: left;
   margin: 70px auto 90px;
+  overflow-wrap: break-word;
 }
 
 .tm-double-border-1,
 .tm-double-border-2 {
   border: 1px solid #fff;
   position: relative;
+  overflow-wrap: break-word;
 }
 
 .tm-double-border-2 {
   top: 10px;
   left: 10px;
+  overflow-wrap: break-word;
 }
 
 .tm-border-gray {
